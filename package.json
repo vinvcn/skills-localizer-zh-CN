@@ -1,0 +1,11 @@
+{
+  "name": "skills-localizer-zh-cn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable skill and validation scripts for maintaining translated skill repositories.",
+  "type": "module",
+  "scripts": {
+    "validate": "node --check scripts/validate-translated-skills.mjs"
+  },
+  "license": "MIT"
+}

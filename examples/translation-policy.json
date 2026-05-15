@@ -1,0 +1,34 @@
+{
+  "$schema": "../references/policy-schema.md",
+  "upstreamRepo": "owner/source-skills",
+  "localizedRepo": "owner/source-skills-locale",
+  "locale": "zh-CN",
+  "publicBuckets": [
+    "skills/engineering",
+    "skills/productivity",
+    "skills/misc"
+  ],
+  "privateBuckets": [
+    "skills/in-progress",
+    "skills/personal",
+    "skills/deprecated"
+  ],
+  "manifestPaths": [
+    ".claude-plugin/plugin.json"
+  ],
+  "indexPaths": [
+    "README.md",
+    "skills/engineering/README.md",
+    "skills/productivity/README.md",
+    "skills/misc/README.md"
+  ],
+  "protectedPatterns": [
+    "npx skills@latest add owner/source-skills-locale",
+    "/setup-localized-skills",
+    "SKILL.md"
+  ],
+  "validationCommands": [
+    "node scripts/check-translation.mjs",
+    "git diff --check"
+  ]
+}
