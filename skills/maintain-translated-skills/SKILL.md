@@ -51,6 +51,10 @@ Read `references/policy-schema.md` from this skill repo when you need field deta
 
 需要字段细节时读取本 skill 仓库的 `references/policy-schema.md`。
 
+Read `references/localized-readme-pattern.md` before creating or rewriting a target repo README.
+
+创建或重写目标仓库 README 前，先读取 `references/localized-readme-pattern.md`。
+
 ## Workflow: Initial Localization Setup
 
 1. Inspect the source repo and target repo shape.
@@ -129,6 +133,10 @@ Final report should include:
 Do not paste full command output into README files.
 
 不要把完整命令输出粘进 README。
+
+When rewriting README files, make the first viewport useful to target-language users: identity, problem solved, install command, and immediate next action. Keep translation strategy, sync logs, and validation notes secondary.
+
+重写 README 时，首屏先服务目标语言用户：我是谁、解决什么问题、怎么安装、装完马上做什么。翻译策略、同步记录和验证说明放到后面。
 
 Keep maintainer-facing sync notes concise.
 

@@ -9,6 +9,7 @@ This repo is for **content localization**, not Git fork synchronization. It help
 - [`skills/maintain-translated-skills/SKILL.md`](./skills/maintain-translated-skills/SKILL.md) - bilingual maintainer skill.
 - [`scripts/validate-translated-skills.mjs`](./scripts/validate-translated-skills.mjs) - portable validation checks for translated skill repos.
 - [`references/policy-schema.md`](./references/policy-schema.md) - target repo policy schema.
+- [`references/localized-readme-pattern.md`](./references/localized-readme-pattern.md) - user-facing README pattern for localized skill repos.
 - [`examples/translation-policy.json`](./examples/translation-policy.json) - generic starter policy.
 
 ## Target Repo Setup
